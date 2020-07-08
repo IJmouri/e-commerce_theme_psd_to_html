@@ -70,4 +70,3 @@ $('.brand-active').owlCarousel({
 
 })(jQuery);
 
-$('select').niceSelect();

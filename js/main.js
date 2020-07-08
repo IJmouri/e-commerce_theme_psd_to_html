@@ -1,14 +1,17 @@
 (function ($) {
 "use strict";
 
-    jQuery('#mobile-menu').meanmenu({
-        meanMenuContainer: '.mobile-menu',
-        meanScreenWidth: "767"
+jQuery('#mobile-menu').meanmenu({
+    meanMenuContainer: '.mobile-menu',
+    meanScreenWidth: "767"
     });
 $('.slider-active').owlCarousel({
     loop:true,
     nav: true,
     navText:['PREV', 'NEXT'],
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
     responsive:{
         0:{
             items:1
@@ -25,6 +28,9 @@ $('.product-active').owlCarousel({
     loop:true,
     nav: true,
     margin: 30,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
     navText:['PREV', 'NEXT'],
     responsive:{
         0:{
@@ -42,6 +48,10 @@ $('.brand-active').owlCarousel({
     loop:true,
     nav: false,
     margin: 30,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+
     navText:['PREV', 'NEXT'],
     responsive:{
         0:{
@@ -56,7 +66,8 @@ $('.brand-active').owlCarousel({
     }
 })
 
-$('select').niceSelect();
 
 
 })(jQuery);
+
+$('select').niceSelect();

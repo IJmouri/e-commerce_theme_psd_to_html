@@ -179,7 +179,7 @@ label {
 	width: 380px;
 	background: black;
 	top: 100%;
-	right: 0;
+	right: 14px;
 	padding: 50px;
 }
 .header-right ul li{
@@ -364,7 +364,7 @@ ul.minicart .cart-content a{
 }
 .header-right ul li .search-form {
     position: absolute;
-    right: 0;
+    right: 14px;
     top: 100%;
     width: 430px;
     height: 51px;

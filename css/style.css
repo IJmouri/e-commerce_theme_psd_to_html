@@ -196,7 +196,8 @@ label {
 
 
 /* main-menu */
-.main-menu ul{}
+.main-menu ul{
+}
 .main-menu ul li {
 	display: inline-block;
 	margin-right: 35px;

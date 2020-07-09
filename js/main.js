@@ -51,7 +51,6 @@ $('.brand-active').owlCarousel({
     autoplay:true,
     autoplayTimeout:3000,
     autoplayHoverPause:true,
-
     navText:['PREV', 'NEXT'],
     responsive:{
         0:{
